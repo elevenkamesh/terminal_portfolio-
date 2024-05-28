@@ -1,51 +1,115 @@
 export const HELP = ()=>{
 return (
-<div className="text-center ml-10">
-<div className="col-6"></div>
+<div>
+<h4 className="ml-10">Here are the list of commad on left</h4>
+
+
+<div className="text-center ml-10 flex flex-row">
+<div className="text-yellow-200">
+<div>
+<p  className="pr-4" >me  </p> 
+</div>
+<div>
+<p  className="pr-4" >edu  </p> 
+</div>
+<div>
+<p  className="pr-4">Skills</p>
+</div>
+<div>
+<p  className="pr-4">clear</p>
+</div>
+<div>
+<p  className="pr-4">socials</p>
+</div>
+<div>
+<p   className="pr-4"> email</p>
+</div>
+
+<div>
+<p  className="pr-4">interest</p>
+</div>
+
+
+<div>
+<p  className="pr-4">help</p>   
+</div>
+
+<div>
+<p  className="pr-4">history</p>
+</div>
+<div>
+<p  className="pr-4">banner</p>
+</div>
+
+
+</div>
   
+<div >
+
+
+
+
 <div className="flex">
-        <p  className="pr-4" >whoiam  </p> <span>
+    
+        <span>
         -- know about me 
         </span>
     </div>
     <div className="flex">
-        <p  className="pr-4">Skills</p> <span>
+    
+        <span>
+        -- my Education
+        </span>
+    </div>
+    <div className="flex">
+       <span>
         -- Technologies I have worked 
         </span>
     </div>
     <div className="flex">
-        <p  className="pr-4">clear</p> <span>
+      <span>
         --  clear all the previous cmds result
         </span>
     </div>
     <div className="flex">
-        <p  className="pr-4">social</p> <span>
+      <span>
         --  Display social networks
         </span>
     </div>
     <div className="flex pr-4">
-    <p   className="pr-4"> email</p> <span>
+    <span>
     --  please dont spam 
         </span>
         </div>
         <div className="flex">
-        <p  className="pr-4">interest</p> <span>
+        <span>
         --  View My interest
         </span>
     </div>
         <div className="flex">
-    <p  className="pr-4">help</p> <span>
+
+    
+    <span>
     -- You obviously already know what this does
         </span>
         </div>
 
         <div className="flex">
-        <p  className="pr-4">history</p> <span>
+       <span>
         --  View command history
         </span>
     </div>
+    <div className="flex">
+       <span>
+        --  Banner
+        </span>
+    </div>
+    </div>
+
 
     </div>
+
+</div>
 
 )
 }
