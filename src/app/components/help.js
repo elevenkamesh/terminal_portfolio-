@@ -1,11 +1,16 @@
 export const HELP = ()=>{
 return (
-<div className="text-center">
+<div className="text-center ml-10">
 <div className="col-6"></div>
   
 <div className="flex">
         <p  className="pr-4" >whoiam  </p> <span>
         -- know about me 
+        </span>
+    </div>
+    <div className="flex">
+        <p  className="pr-4">Skills</p> <span>
+        -- Technologies I have worked 
         </span>
     </div>
     <div className="flex">
@@ -23,7 +28,11 @@ return (
     --  please dont spam 
         </span>
         </div>
-
+        <div className="flex">
+        <p  className="pr-4">interest</p> <span>
+        --  View My interest
+        </span>
+    </div>
         <div className="flex">
     <p  className="pr-4">help</p> <span>
     -- You obviously already know what this does

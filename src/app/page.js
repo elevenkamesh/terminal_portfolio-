@@ -5,6 +5,8 @@ import { LSCMD } from "./components/ls";
 import { Top } from "./components/top";
 import { HELP } from "./components/help";
 import {History } from "./components/history";
+import { Skills } from "./components/skills";
+import { Interest } from "./components/interest";
 export default function Home() {
   const [output, setOutput] = useState('');
   const [contents, setContents] = useState([]);
@@ -27,6 +29,12 @@ export default function Home() {
         case "ls":
           newContents.push(<div key={newContents.length}><LSCMD /></div>);
           break;
+          case "skills":
+            newContents.push(<div key={newContents.length}><Skills /></div>);
+            break;
+            case "interest":
+              newContents.push(<div key={newContents.length}><Interest /></div>);
+              break;
           case "help":
             newContents.push(<div key={newContents.length}><HELP /></div>);
             break;

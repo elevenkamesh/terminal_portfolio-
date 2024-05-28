@@ -13,10 +13,10 @@ export const Top = ()=>{
 <div>     |   ||   |    |    {'<'}  / __ \|  Y Y  \  ___/ \___ \|   Y  \</div>
 <div>     |___||___|____|__|_ \{'('}____  /__|_|  /\___  {'>'}____  {'>'}___|  /</div>
 <div>             /_____/    \/     \/      \/     \/     \/     \/ </div>
-
+<div>Welcome to my terminal portfolio. (Version 0.0.1)</div>
+<div> For a list of available commands, type `help`</div>
 <div className="w-full">*******************************************************************************************************</div>
-<div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
-<div> For a list of available commands, type `</div>
+
 {/* {i} */}
 </pre>
 </div>
