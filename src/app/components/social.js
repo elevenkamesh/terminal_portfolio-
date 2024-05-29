@@ -23,15 +23,15 @@ Here are my social links
 
 <div className="text-sky-400">
     <div className="">
-    - <a href="https://github.com/elevenkamesh"> https://github.com/elevenkamesh</a>
+    - <a href="https://github.com/elevenkamesh" target="_blank" > https://github.com/elevenkamesh</a>
     </div>
     <div className=" ">
 
-    - <a href="https://dev.to/kameshof">https://dev.to/kameshoff</a>
+    - <a href="https://dev.to/kameshof" target="_blank" >https://dev.to/kameshoff</a>
     </div>
     <div className="">
 
-    -<a href="https://www.linkedin.com/in/kameshwaran11"> https://www.linkedin.com/in/kameshwaran11</a>
+    -<a href="https://www.linkedin.com/in/kameshwaran11" target="_blank" > https://www.linkedin.com/in/kameshwaran11</a>
     </div>
   
 

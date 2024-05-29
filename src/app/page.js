@@ -27,7 +27,7 @@ export default function Home() {
       setcommad(data);
       let ans = `<p className="text-green-700"> Guest@kamesh_portfolio/:> ${output} </p>`;
       let newContents = [...contents, <div key={contents.length}>
-        <div className="text-green-700" dangerouslySetInnerHTML={{__html : ans}}/>
+        <div className="text-green-900" dangerouslySetInnerHTML={{__html : ans}}/>
         {/* {ans} */}
         </div>];
       
@@ -85,7 +85,7 @@ export default function Home() {
           <div key={index}>{content}</div>
         ))}
       </div>
-      <div className="flex text-green-700">
+      <div className="flex text-green-900">
         <p >Guest</p><p>@kamesh_portfolio/:{'>'} </p>
         <input
         

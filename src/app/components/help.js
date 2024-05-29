@@ -1,13 +1,13 @@
 export const HELP = ()=>{
 return (
 <div>
-<h4 className="ml-10">Here are the list of commad on left</h4>
+<h4 className="mt-4">Here are the list of commad on left</h4>
 
 
-<div className="text-center ml-10 flex flex-row">
+<div className="text-left mt-3 mb-3 flex flex-row">
 <div className="text-yellow-200">
 <div>
-<p  className="pr-4" >me  </p> 
+<p  className="" >me</p> 
 </div>
 <div>
 <p  className="pr-4" >edu  </p> 
