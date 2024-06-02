@@ -6,7 +6,9 @@ export const Top = ()=>{
 <div className="flex">
 <div className="mb-4 font-blocks">
 <pre className="whitespace-pre-wrap text-sm  leading-none " >
-    <div>*********************************************************************************************************</div>
+    <div>code x eleven (ce) Not A Corporation. All Human bot reserved.
+
+</div>
 <div>{"     "}____ ____      __                                 .__     </div>
  <div>{" "}   /_   /_   |    |  | _______    _____   ____   _____| |__        </div>
 <div>     |   ||   |    |  |/ /\__  \  /     \_/ __ \ /  _/ |     \      </div>
